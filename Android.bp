@@ -279,6 +279,7 @@ cc_library_static {
 
 cc_binary {
     name: "avbctl",
+    recovery_available: true,
     defaults: ["avb_defaults"],
     static_libs: [
         "libavb_user",
